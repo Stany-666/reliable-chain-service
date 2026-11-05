@@ -1,0 +1,21 @@
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets/
+# Local state and database exports
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+# Build output and OS files
+.DS_Store
+bin/
+dist/
+*.test
+coverage.out
